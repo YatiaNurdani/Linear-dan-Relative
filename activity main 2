@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Atta Halilintar"
+        android:textSize="15pt"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:id="@+id/nnama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:textSize="10pt"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"/>
+
+    <EditText
+        android:id="@+id/nama"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:textSize="12pt"
+        android:layout_marginLeft="20dp"
+        android:textColorHint="#000000"/>
+    <TextView
+        android:id="@+id/aalamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alamat"
+        android:textSize="10pt"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/nnama"/>
+
+    <EditText
+        android:id="@+id/alamat"
+    android:layout_width="320dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:textSize="12pt"
+    android:layout_marginLeft="20dp"
+        android:textColorHint="#000000"
+        android:layout_below="@+id/nama"/>
+
+    <TextView
+        android:id="@+id/kkampus"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Kampus"
+    android:textSize="10pt"
+    android:layout_marginLeft="30dp"
+    android:layout_marginTop="50dp"
+        android:layout_below="@+id/aalamat"/>
+
+    <EditText
+        android:id="@+id/kampus"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="12pt"
+        android:layout_marginLeft="20dp"
+        android:textColorHint="#000000"
+        android:layout_below="@id/alamat"/>
+
+    <ImageView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:src="@drawable/ahha"
+    android:layout_marginTop="370dp"
+    android:layout_marginLeft="250dp"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ahha"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="135dp"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ahha"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="20dp"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Kembali"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="500dp"
+        android:onClick="Kembali"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Next"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="500dp"/>
+
+</RelativeLayout>
